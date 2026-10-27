@@ -54,15 +54,3 @@ In Italian, many foreign proper nouns were incorrectly recognized as if they wer
 
 Finally, in Polish, the grammatical aspect that caused the most difficulties was declension. The model sometimes struggled to identify the appropriate case for a noun or adjective based on the surrounding context and verb. Similarly to Italian, many words were transcribed as meaningless combinations of phonemes that sounded similar to the original words but had no meaning in Polish. Furthermore, many expressions that should have been written as separate words were merged into a single word. Noticeable substitution errors also occurred in words with more comples spelling. Wlthough Whisper performed relatively well in Polish in the overall analysis, partly due to the good alignment between the VoxPopuli reference transcripts and the recordings, it achieved the worst results in the sample analysis with manual transcriptions as references.  
 
-**STRUCTURE** 
-ASR_project/
-├── README.md
-├── notebook.ipynb
-└── results/
-    ├── english/manual_validation_en
-    ├── french/manual_validation_fr
-    ├── italian/manual_validation_it
-    ├── polish/manual_validation_pl
-    └── summary/final_validation
-
-
